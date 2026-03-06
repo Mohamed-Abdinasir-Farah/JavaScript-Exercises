@@ -13,3 +13,4 @@ const total = function(x,y) {
 total(100,  489);
 total(49, 127);
 total(18, 97);
+
