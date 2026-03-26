@@ -1,0 +1,10 @@
+{
+  "id": "R/0215/17",
+  "name": "Mohamed",
+  "university": "JJU",
+  "department": "Software Engineering",
+  "courses": [
+    {"course name": "Data Structure and Algorithm", "course code": "SENG2122", "category": "Major"},
+    {"course name": "Operating Systems and System Programming", "course code": "SENG3122", "category": "Major"} 
+  ]
+}
