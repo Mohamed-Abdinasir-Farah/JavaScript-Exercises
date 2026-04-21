@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Exercise 36</title>
+
+  <style>
+    #colorPreview {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 200px;
+      border: 1px solid black;
+      margin: 20px 0;
+    }
+
+    #colorHistory {
+      list-style: none;
+      padding: 0;
+    }
+
+    #colorHistory li {
+            margin: 5px 0;
+        }
+  </style>
+</head>
+<body>
+  <h1>Interactive Color Picker</h1>
+
+  <label for="color">Choose a color:</label>
+  <input type="color" name="colorPicker" id="colorPicker">
+
+  <div id="colorPreview">Color Preview</div>
+
+  <h2>Color History</h2>
+  <ul id="colorHistory"></ul>
+
+  <button id="RemoveColorHistoryButton">Remove button</button>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
