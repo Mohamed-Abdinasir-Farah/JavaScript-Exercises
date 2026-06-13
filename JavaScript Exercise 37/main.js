@@ -12,6 +12,8 @@ function loadPosts() {
   posts.forEach(post => {
     addPostToDom(post);
   });
+}
+
 postForm.addEventListener("submit", addPost);
 
 function addPost(event) {
